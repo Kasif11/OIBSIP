@@ -1,0 +1,130 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("TemperatureImage.jpg");
+}
+
+.mainContainer {
+    height: 350px;
+    width: 330px;
+    /* background: transparent; */
+    border: 8px solid transparent;
+    padding: 15px;
+    border-image: url("BorderImage.png") 30 stretch;
+    margin-top: 100px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    margin: 10px;
+    font-size: larger;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(109, 55, 216);
+}
+
+.miniContainer1 legend {
+    margin-top: 25px;
+}
+
+.miniContainer2 legend {
+    margin-top: 25px;
+}
+
+.miniContainer1 input {
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-size: 15px;
+    outline: none;
+    width: 120px;
+    margin-top: 5px;
+}
+
+.miniContainer1 input:hover {
+    cursor: pointer;
+}
+
+/* .miniContainer1 input:focus {
+    border: 3px solid black;
+    border-radius: 5px;
+} */
+
+.miniContainer2 select {
+    margin-top: 5px;
+}
+
+.miniContainer2 select:hover {
+    cursor: pointer;
+}
+
+.miniContainer2 #unit {
+    height: 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 120px;
+}
+
+h4 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+hr {
+    width: 80%;
+    border: 1.3px solid;
+    margin-left: 30px;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 20px;
+}
+
+#btn {
+    width: 30%;
+    background-color: rgba(6, 6, 240, 0.724);
+    color: white;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(42, 42, 201, 0.667);
+    text-shadow: 3px 3px 5px rgba(217, 213, 213, 0.815);
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font: bold;
+    text-shadow: 2px 2px 5px rgb(223, 93, 93);
+}
